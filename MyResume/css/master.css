@@ -1,0 +1,145 @@
+
+
+html{
+background: url(../images/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family:'Helvetica Neue',sans-serif;
+}
+
+.prof-box{
+  width:45%;
+  height:70%;
+  background:rgba(0,0,0,0.4);
+  padding:30px;
+  color:white;
+  margin:0 auto; /*Center the box!*/
+  margin-top:10px;
+  text-align:center;
+  min-width:350px;
+  max-width:550px;
+  max-height:850px;
+}
+
+.prof-pic{
+  border-radius:50%;
+  height:195px;
+  width:185px;
+  
+}
+
+h1{
+  font-weight:100;
+  letter-spacing:7;
+  font-size:30px;
+}
+
+p{
+  font-weight:200px;
+  letter-spacing:1;
+}
+.social-icons{
+  font-size:40px;
+}
+
+.social-icons a{
+  color:white;
+}
+.line-break{
+  width:300px;
+  margin:0 auto;
+  border-top: 1px solid white;
+}
+
+ul.nav {
+    margin:0;
+    padding:0;
+    list-style:none;
+    height:50px; line-height:50px;
+      margin-left:20px;
+  margin-right:20px;
+      background:rgba(0,0,0,0.4);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px;
+    letter-spacing:2;
+}
+ul.nav li {
+    border-right:1px solid rgba(0,0,0,0.4);; /* you can change the border color matching to your background color */
+    float:left;
+}
+ul.nav a {
+    display:block;
+    padding:0 28px;
+    color:white;
+    text-decoration:none;
+}
+ul.nav a:hover,
+ul.nav li.current a {
+    background:#086754;
+}
+
+
+ .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown:hover .dropbtn {
+      background:#086754;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+   background:rgba(0,0,0,0.4);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.prof-info{
+position:relative;
+  background:rgba(0,0,0,0.4);
+  margin-top:10px;
+  color:white;
+  height:90%;
+  margin-left:20px;
+  margin-right:20px;
+  text-align:center;
+  position:relative
+}
+
+.prof-info2{
+position:relative;
+  background:rgba(0,0,0,0.4);
+  margin-top:10px;
+  color:white;
+  height:Auto;
+  margin-left:20px;
+  margin-right:20px;
+  text-align:left;
+  position:relative
+}
